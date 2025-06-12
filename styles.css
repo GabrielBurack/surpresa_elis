@@ -1,0 +1,80 @@
+/* Importando uma fonte bonita do Google Fonts (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    background-color: #fce4ec; /* Um tom de rosa bem clarinho para o fundo */
+    font-family: 'Roboto', sans-serif; /* Fonte padrão para os textos */
+    display: flex; /* Usamos flexbox para centralizar o conteúdo */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima de 100% da tela */
+    margin: 0;
+    padding: 20px; /* Espaçamento nas bordas */
+    box-sizing: border-box; /* Garante que padding não afete o tamanho total */
+}
+
+/* Estilos para o nosso contêiner principal */
+.container {
+    background-color: #ffffff; /* Fundo branco para o "cartão" */
+    padding: 30px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+    text-align: center; /* Centraliza todo o texto */
+    max-width: 500px; /* Largura máxima do nosso cartão */
+    width: 100%;
+}
+
+/* Estilos para a foto do casal */
+.foto-casal {
+    max-width: 100%; /* Garante que a foto nunca ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas para a foto */
+    border: 3px solid #f8bbd0; /* Borda sutil na cor rosa */
+    margin-bottom: 20px; /* Espaço abaixo da foto */
+}
+
+/* Estilos para o título principal */
+h1 {
+    font-family: 'Playfair Display', serif; /* Fonte mais elegante para o título */
+    color: #c2185b; /* Cor rosa escuro */
+    font-size: 2.5em; /* Tamanho da fonte */
+    margin-bottom: 10px;
+}
+
+/* Estilos para a mensagem de amor */
+.mensagem {
+    color: #444444; /* Cor de texto cinza escuro, fácil de ler */
+    font-size: 1.1em;
+    line-height: 1.6; /* Espaçamento entre as linhas para melhor leitura */
+}
+
+/* Estilos para o rodapé */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Estilos para o nosso novo botão de navegação */
+.botao {
+    display: inline-block; /* Faz o link se comportar como um bloco, mas na mesma linha */
+    background-color: #c2185b; /* Mesma cor do título para consistência */
+    color: #ffffff; /* Texto branco */
+    padding: 12px 25px; /* Espaçamento interno (vertical e horizontal) */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 20px; /* Espaço acima do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor */
+}
+
+/* Efeito que acontece quando passamos o mouse por cima do botão */
+.botao:hover {
+    background-color: #ad1457; /* Um tom um pouco mais escuro da cor principal */
+}
+
+img{
+    height: 20rem;
+    width: 20rem;
+}
